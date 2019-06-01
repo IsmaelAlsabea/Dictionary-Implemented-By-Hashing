@@ -6,5 +6,5 @@ public interface IUserInterface {
 
 	String AskForWordMenu();
 	
-
+	int mainMenu();
 }
