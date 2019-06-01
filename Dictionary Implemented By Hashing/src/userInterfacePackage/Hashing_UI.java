@@ -40,4 +40,27 @@ public class Hashing_UI implements IUserInterface {
 		return wordToSearch;
 }
 
+	@Override
+	public int mainMenu() {
+		int choice=-1;
+		while(true) {
+			System.out.println(
+					"please choose what you want to do\n"
+					+ "1) search the definition of a word\n"
+					+ "2) exit");
+			choice = ir.readAnInt();
+			if (choice > 2 || choice < 1) {
+				System.out.println("Please input either 1 or 2");
+				continue;
+			}
+			return choice;
+		}
+	}
+
+	
+	
+	
+	
+	
+	
 }
