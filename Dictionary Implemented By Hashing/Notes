@@ -1,0 +1,55 @@
+ we need a class that 
+ 
+ read the file,  size of the list is embedded in the list.
+ 
+ put the data in the hashing function.
+ 	Note: putting the data in the hashing function is dependent upon the crt, so it must be done after you declare the 
+ 	instance.
+ 
+ file reader should be a class that reads all the files and produce a string of all data.
+ - make it parameterized.
+ 
+ there should be a menu that includes the crt so you pass the scanner to it, expose a menu of options and you choose.
+ 
+ move the function hashingds to its class and pass all the info it needs. to declare its instance.
+ 
+ sieve of atkins should be in the hashingds class.
+ 
+ 
+ we have a string line
+ 
+ we give it to word, word breaks it and instantiates itself.
+ 
+ we need a class that holds the  all file entries
+ provides a size to the hashing datastructure.
+ provide the entries to its children.
+ 
+ 
+ we have a UI which hold the ui and the interface that it depends on.
+ we need a package to hold the the data structures.
+ we need a package to hold the word nodes
+ we need a package to hold the helper classes.
+ initialization of the system should be outside the UI
+ 
+ 
+ 
+ Data structure interface
+ Ds factory => type and path
+ 
+ maps into ds interface that can have any type of data structure.
+ 
+ 
+ problem with hashing strategies because they depend on nodes package. we have to have a way to get the instances from
+ methods of interface otherwise, we are tightly coupled.
+ 	A/ 
+ 		maybe we can use getKey method in the INode function where implementation can bring the word.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
