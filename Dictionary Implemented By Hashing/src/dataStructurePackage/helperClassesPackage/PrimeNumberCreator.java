@@ -2,6 +2,10 @@ package dataStructurePackage.helperClassesPackage;
 
 import java.util.Arrays;
 
+
+/*
+taken from geeks for geeks website
+*/
 public class PrimeNumberCreator {
 	
 	public int sieveOfAtkin (int limit) {
